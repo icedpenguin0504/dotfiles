@@ -1,0 +1,8 @@
+# ignore all
+/*
+/.**
+
+# white list
+!/README.md
+!/.gitignore
+!/.zshrc
