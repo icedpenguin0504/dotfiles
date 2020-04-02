@@ -4,7 +4,7 @@
 # cd+ls if you are not in home directory
 chpwd() {
   if [[ $(pwd) != $HOME ]]; then;
-    ls
+    ls -FG
   fi
 }
 
