@@ -77,3 +77,10 @@ alias ...='cd ...'
 # utility
 
 alias showcolors='for c in {000..255}; do echo -n "\e[38;5;${c}m $c" ; [ $(($c%16)) -eq 15 ] && echo;done;echo'
+
+#######################################
+# others
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/nasuyuta/.sdkman"
+[[ -s "/Users/nasuyuta/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/nasuyuta/.sdkman/bin/sdkman-init.sh"
