@@ -68,6 +68,7 @@ zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'c
 alias ls='ls -FG'
 alias ll='ls -l'
 alias la='ls -a'
+alias lla='ls -la'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
