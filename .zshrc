@@ -32,15 +32,15 @@ colors
 
 autoload -Uz vcs_info
 setopt prompt_subst
-zstyle ':vcs_info:*' formats '[%F{$my_green1}%b%f]'
-zstyle ':vcs_info:*' actionformats '[%F{$my_green1}%b%f(%F{$my_orange}%a%f)]'
+zstyle ':vcs_info:*' formats '%F{$my_gray}[%f%F{$my_green1}%b%f%F{$my_gray}]%f'
+zstyle ':vcs_info:*' actionformats '%F{$my_gray}[%f%F{$my_green1}%b%f(%F{$my_orange}%a%f)%F{$my_gray}]%f'
 
 ## prompt
 
 precmd() {vcs_info }
 PROMPT='--------------------------------------------------
-%F{$my_gray}[%n]%f  %F{$my_blue2}%~%f  ${vcs_info_msg_0_}
-%(?.%F{$my_blue1}.%F{$my_orange})(•Θ••) >%f '
+%F{$my_gray}[%f%F{$my_blue2}%~%f%F{$my_gray}]%f %F{$my_gray}[%n]%f  ${vcs_info_msg_0_}
+%(?.%F{$my_blue1}.%F{$my_orange})$%f '
 
 
 
