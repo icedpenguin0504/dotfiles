@@ -84,6 +84,10 @@ alias ..3='cd ../../..'
 alias showcolors='for c in {000..255}; do echo -n "\e[38;5;${c}m $c" ; [ $(($c%16)) -eq 15 ] && echo;done;echo'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs &'
 
+# dotfiles
+
+alias cdd="cd $HOME/dotfiles"
+
 #######################################
 # others
 
