@@ -87,6 +87,8 @@ alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs &'
 # dotfiles
 
 alias cdd="cd $HOME/dotfiles"
+alias vz="vi $HOME/dotfiles/.zshrc"
+alias sz="source $HOME/dotfiles/.zshrc"
 
 #######################################
 # others
