@@ -1,9 +1,12 @@
 ########################################
 # commands
 
-# cd+ls if you are not in home directory
+# cd+ls 
 chpwd() {
-  if [[ $(pwd) != $HOME ]]; then;
+  dotfile_dir="$HOME/dotfiles"
+  if [[ $(pwd) = $dotfiles_dir ]]; then
+    ls -aFG
+  else
     ls -FG
   fi
 }
