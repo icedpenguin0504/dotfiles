@@ -3,7 +3,7 @@
 
 # cd+ls 
 chpwd() {
-  dotfile_dir="$HOME/dotfiles"
+  dotfiles_dir="$HOME/dotfiles"
   if [[ $(pwd) = $dotfiles_dir ]]; then
     ls -aFG
   else
