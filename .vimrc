@@ -1,25 +1,27 @@
 """"""""""""""""""""
-" Edit
+" core
 """"""""""""""""""""
 
-" スペースを使用
+" Use space as tab
 set expandtab
-" タブ文字幅
+
+" Tab width
 set tabstop=2
-" Vimが挿入するインデント幅
+
+" Indent width
 set shiftwidth=2
-" 行頭の余白内でTabを打つとshiftwidthだけインデント
+
+" Indent when pressing tab
 set smarttab
-" 前の行のインデントを継承
+
+" Keep current indent
 set autoindent
-" 改行時に入力された行の末尾に合わせる
+
+" C-like indent
 set smartindent
 
-""""""""""""""""""""
-" View
-""""""""""""""""""""
-
-" シンタックスハイライト
-syntax on
-" 行番号
+" line number
 set number
+
+" syntax highlighting
+syntax on
