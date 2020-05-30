@@ -28,3 +28,6 @@ syntax on
 
 " show current line
 set cursorline
+
+" enhance command-line completion
+set wildmenu
