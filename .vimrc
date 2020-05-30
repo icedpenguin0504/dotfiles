@@ -25,3 +25,6 @@ set number
 
 " syntax highlighting
 syntax on
+
+" show current line
+set cursorline
