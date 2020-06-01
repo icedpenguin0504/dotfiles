@@ -1,5 +1,5 @@
 """"""""""""""""""""
-" core
+" Core
 """"""""""""""""""""
 
 " Use space as tab
@@ -31,3 +31,10 @@ set cursorline
 
 " enhance command-line completion
 set wildmenu
+
+"""""""""""""""""""
+" Key bindings
+"""""""""""""""""""
+
+" Insert mode -> Normal mode
+inoremap <silent> jj <ESC>
