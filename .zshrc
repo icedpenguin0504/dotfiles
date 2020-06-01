@@ -90,6 +90,10 @@ alias cdd="cd $HOME/dotfiles"
 alias vz="vi $HOME/dotfiles/.zshrc"
 alias sz="source $HOME/dotfiles/.zshrc"
 
+# git
+
+alias gs="git status"
+
 #######################################
 # others
 
