@@ -1,0 +1,6 @@
+""""""""""""""""""""
+" Key bindings
+""""""""""""""""""""
+
+" Insert mode -> normal mode
+inoremap jj <ESC>
