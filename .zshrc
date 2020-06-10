@@ -12,47 +12,6 @@ chpwd() {
 }
 
 
-
-########################################
-# view
-
-# prompt
-
-## my color pallete
-
-my_gray=248
-my_blue1=117
-my_blue2=075
-my_green1=076
-my_orange=208
-
-## enable to use colors
-
-autoload -Uz colors
-colors
-
-## git
-
-autoload -Uz vcs_info
-setopt prompt_subst
-zstyle ':vcs_info:*' formats '%F{$my_gray}[%f%F{$my_green1}%b%f%F{$my_gray}]%f'
-zstyle ':vcs_info:*' actionformats '%F{$my_gray}[%f%F{$my_green1}%b%f(%F{$my_orange}%a%f)%F{$my_gray}]%f'
-
-## prompt
-
-precmd() {vcs_info }
-PROMPT='--------------------------------------------------
-%F{$my_gray}[%f%F{$my_blue2}%~%f%F{$my_gray}]%f %F{$my_gray}[%n]%f  ${vcs_info_msg_0_}
-%(?.%F{$my_blue1}.%F{$my_orange})$%f '
-
-
-
-# ls colors
-
-export LSCOLORS=gxfxcxdxbxegedabagacad
-
-
-
 #######################################
 # completion
 
@@ -93,6 +52,28 @@ alias sz="source $HOME/dotfiles/.zshrc"
 # git
 
 alias gs="git status"
+
+########################################
+# powerline shell
+########################################
+
+function powerline_precmd() {
+    PS1="$(powerline-shell --shell zsh $?)"
+}
+
+function install_powerline_precmd() {
+  for s in "${precmd_functions[@]}"; do
+    if [ "$s" = "powerline_precmd" ]; then
+      return
+    fi
+  done
+  precmd_functions+=(powerline_precmd)
+}
+
+if [ "$TERM" != "linux" ]; then
+    install_powerline_precmd
+fi
+
 
 #######################################
 # others
