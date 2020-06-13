@@ -1,5 +1,6 @@
 ########################################
 # commands
+########################################
 
 # cd+ls 
 chpwd() {
@@ -12,8 +13,9 @@ chpwd() {
 }
 
 
-#######################################
+########################################
 # completion
+########################################
 
 autoload -U compinit
 compinit
@@ -22,8 +24,9 @@ zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-colors 'di=36' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'cd=43;34'
 
 
-#######################################
+########################################
 # alias
+########################################
 
 ## core
 
@@ -74,9 +77,16 @@ if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
 
+########################################
+# colors
+########################################
 
-#######################################
+export LSCOLORS=GxFxcxdxCxegedabagacad
+
+
+########################################
 # others
+########################################
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/nasuyuta/.sdkman"
