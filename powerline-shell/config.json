@@ -1,13 +1,11 @@
 {
   "segments": [
     "virtual_env",
-    "username",
-    "hostname",
     "ssh",
     "cwd",
     "git",
     "hg",
-    "jobs",
-    "root"
-  ]
+    "jobs"
+  ],
+  "theme": "~/dotfiles/powerline-shell/themes/nord_like.py"
 }

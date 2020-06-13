@@ -61,7 +61,10 @@ alias gs="git status"
 ########################################
 
 function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
+# customized prompt
+    PS1="
+$(powerline-shell --shell zsh $?)
+$ "
 }
 
 function install_powerline_precmd() {
