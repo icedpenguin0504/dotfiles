@@ -38,3 +38,16 @@ set wildmenu
 
 " Insert mode -> Normal mode
 inoremap <silent> jj <ESC>
+
+
+"""""""""""""""""""
+" Plugins
+"""""""""""""""""""
+
+" vim-plug
+
+call plug#begin('~/.vim/plugged')
+Plug 'arcticicestudio/nord-vim'
+call plug#end()
+
+colorscheme nord
