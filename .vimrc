@@ -56,9 +56,21 @@ nnoremap :tree :NERDTreeToggle
 call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'
 Plug 'preservim/nerdtree'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 colorscheme nord
+
+" lightline
+
+let g:lightline = {
+      \ 'colorscheme': 'nord'
+      \ }
+
+" Need to show lightline
+set laststatus=2
+" Don't show mode 
+set noshowmode
 
 """""""""""""""""""
 " colors
