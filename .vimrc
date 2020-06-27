@@ -39,6 +39,8 @@ set wildmenu
 " Insert mode -> Normal mode
 inoremap <silent> jj <ESC>
 
+" open nerdtree
+nnoremap :tree :NERDTreeToggle
 
 """""""""""""""""""
 " Plugins
@@ -48,6 +50,7 @@ inoremap <silent> jj <ESC>
 
 call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 colorscheme nord
