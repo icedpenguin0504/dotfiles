@@ -36,6 +36,7 @@ set wildmenu
 let &t_SI .= "\e[5 q"  " start insert mode, vertical line
 let &t_EI .= "\e[1 q"  " end insert mode, block
 
+
 """""""""""""""""""
 " Key bindings
 """""""""""""""""""
@@ -43,7 +44,7 @@ let &t_EI .= "\e[1 q"  " end insert mode, block
 " Insert mode -> Normal mode
 inoremap <silent> jj <ESC>
 
-" open nerdtree
+" open / close nerdtree
 nnoremap :tree :NERDTreeToggle
 
 """""""""""""""""""
@@ -58,3 +59,13 @@ Plug 'preservim/nerdtree'
 call plug#end()
 
 colorscheme nord
+
+"""""""""""""""""""
+" colors
+"""""""""""""""""""
+
+" For nord
+" These settings must be placed after colorscheme
+
+" Comment
+hi Comment ctermfg=gray
