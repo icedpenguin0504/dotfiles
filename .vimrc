@@ -32,6 +32,10 @@ set cursorline
 " enhance command-line completion
 set wildmenu
 
+" shape of cursor
+let &t_SI .= "\e[5 q"  " start insert mode, vertical line
+let &t_EI .= "\e[1 q"  " end insert mode, block
+
 """""""""""""""""""
 " Key bindings
 """""""""""""""""""
