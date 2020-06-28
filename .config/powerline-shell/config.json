@@ -7,5 +7,5 @@
     "hg",
     "jobs"
   ],
-  "theme": "~/dotfiles/powerline-shell/themes/nord_like.py"
+  "theme": "~/.config/powerline-shell/themes/nord_like.py"
 }

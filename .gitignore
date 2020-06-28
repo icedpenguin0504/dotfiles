@@ -10,4 +10,6 @@
 !/.vimrc
 !/.spacemacs
 !/.ideavimrc
-!/powerline-shell/
+
+!/.config/
+!/.config/powerline-shell/**
