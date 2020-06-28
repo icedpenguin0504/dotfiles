@@ -11,6 +11,4 @@
 !/.spacemacs
 !/.ideavimrc
 
-/.config/*
-!/.config/powerline-shell
-!/.config/nvim
+!/.config/
