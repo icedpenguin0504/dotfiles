@@ -61,14 +61,19 @@ nnoremap :tree :NERDTreeToggle
 " vim-plug
 
 call plug#begin('~/.vim/plugged')
+" Nord theme
 Plug 'arcticicestudio/nord-vim'
+" Show file tree
 Plug 'preservim/nerdtree'
+" Add status line
 Plug 'itchyny/lightline.vim'
+" Visualize indent
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 colorscheme nord
 
-" lightline
+"" lightline
 
 let g:lightline = {
       \ 'colorscheme': 'nord'
@@ -78,6 +83,11 @@ let g:lightline = {
 set laststatus=2
 " Don't show mode 
 set noshowmode
+
+"" indentLine
+
+let g:indentLine_char = '|'
+let g:indentLine_color_term = 'darkgray'
 
 """""""""""""""""""
 " colors
