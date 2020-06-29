@@ -89,6 +89,12 @@ set laststatus=2
 " Don't show mode 
 set noshowmode
 
+"" NERDTree
+
+" show hidden files
+
+let NERDTreeShowHidden=1
+
 "" indentLine
 
 let g:indentLine_char = '|'
