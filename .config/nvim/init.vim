@@ -72,6 +72,8 @@ Plug 'Yggdroot/indentLine'
 " fuzzy search
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+" Fuzzy search from project root directory
+Plug 'airblade/vim-rooter'
 call plug#end()
 
 colorscheme nord
