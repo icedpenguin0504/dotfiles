@@ -69,6 +69,9 @@ Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 " Visualize indent
 Plug 'Yggdroot/indentLine'
+" fuzzy search
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 colorscheme nord
