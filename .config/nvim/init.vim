@@ -100,6 +100,15 @@ let NERDTreeShowHidden=1
 let g:indentLine_char = '|'
 let g:indentLine_color_term = 'darkgray'
 
+"" fzf
+
+" files
+nnoremap :ff :Files     
+" file history
+nnoremap :fh :History 
+" current buffer
+nnoremap :fb :BLines 
+
 """""""""""""""""""
 " colors
 """""""""""""""""""
