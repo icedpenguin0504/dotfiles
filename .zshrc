@@ -58,6 +58,7 @@ alias vi='nvim'
 alias cdd="cd $HOME/dotfiles"
 alias vz="vi $HOME/dotfiles/.zshrc"
 alias sz="source $HOME/dotfiles/.zshrc"
+alias vv="vi $HOME/dotfiles/.config/nvim/init.vim"
 
 # git
 
