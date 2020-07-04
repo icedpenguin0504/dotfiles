@@ -88,6 +88,9 @@ set cursorline
 " enhance command-line completion
 set wildmenu
 
+" Disable automatic comment auto
+autocmd Filetype * set formatoptions-=ro
+
 " shape of cursor
 let &t_SI .= "\e[5 q"  " start insert mode, vertical line
 let &t_EI .= "\e[1 q"  " end insert mode, block
