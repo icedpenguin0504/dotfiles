@@ -1,62 +1,13 @@
-""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""
 " Path
-""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""
 
 let g:python_host_prog=$PYENV_ROOT.'/versions/neovim-2/bin/python'
 let g:python3_host_prog=$PYENV_ROOT.'/versions/neovim-3/bin/python'
 
-""""""""""""""""""""
-" Core
-""""""""""""""""""""
-
-" Use space as tab
-set expandtab
-
-" Tab width
-set tabstop=2
-
-" Indent width
-set shiftwidth=2
-
-" Indent when pressing tab
-set smarttab
-
-" Keep current indent
-set autoindent
-
-" C-like indent
-set smartindent
-
-" line number
-set number
-
-" syntax highlighting
-syntax on
-
-" show current line
-set cursorline
-
-" enhance command-line completion
-set wildmenu
-
-" shape of cursor
-let &t_SI .= "\e[5 q"  " start insert mode, vertical line
-let &t_EI .= "\e[1 q"  " end insert mode, block
-
-
-"""""""""""""""""""
-" Key bindings
-"""""""""""""""""""
-
-" Insert mode -> Normal mode
-inoremap <silent> jj <ESC>
-
-" open / close nerdtree
-nnoremap :tree :NERDTreeToggle
-
-"""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""
 " Plugins
-"""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""
 
 " vim-plug
 
@@ -102,21 +53,69 @@ let NERDTreeShowHidden=1
 let g:indentLine_char = '|'
 let g:indentLine_color_term = 'darkgray'
 
-"" fzf
 
-" files
-nnoremap :ff :Files     
-" file history
-nnoremap :fh :History 
-" current buffer
-nnoremap :fb :BLines 
+""""""""""""""""""""""""""""""""""""""""
+" My settings: core
+""""""""""""""""""""""""""""""""""""""""
 
-"""""""""""""""""""
-" colors
-"""""""""""""""""""
+" Use space as tab
+set expandtab
+
+" Tab width
+set tabstop=2
+
+" Indent width
+set shiftwidth=2
+
+" Indent when pressing tab
+set smarttab
+
+" Keep current indent
+" set autoindent
+
+" C-like indent
+set smartindent
+
+" line number
+set number
+
+" syntax highlighting
+syntax on
+
+" show current line
+set cursorline
+
+" enhance command-line completion
+set wildmenu
+
+" shape of cursor
+let &t_SI .= "\e[5 q"  " start insert mode, vertical line
+let &t_EI .= "\e[1 q"  " end insert mode, block
+
+""""""""""""""""""""""""""""""""""""""""
+" MySettings: colors
+""""""""""""""""""""""""""""""""""""""""
 
 " For nord
 " These settings must be placed after colorscheme
 
 " Comment
 hi Comment ctermfg=gray
+
+""""""""""""""""""""""""""""""""""""""""
+" My settings: key maps
+""""""""""""""""""""""""""""""""""""""""
+
+" Insert mode -> Normal mode
+inoremap <silent> jj <ESC>
+
+" open / close nerdtree
+nnoremap :tree :NERDTreeToggle
+
+" fzf: files
+nnoremap :ff :Files     
+" fzf: file history
+nnoremap :fh :History 
+" fzf: current buffer
+nnoremap :fb :BLines 
+
