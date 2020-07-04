@@ -27,6 +27,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 " Collection of languages packs
 Plug 'sheerun/vim-polyglot'
+" Close parentheses automatically
+Plug 'cohama/lexima.vim'
 call plug#end()
 
 colorscheme nord
