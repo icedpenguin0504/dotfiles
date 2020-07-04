@@ -88,7 +88,7 @@ set cursorline
 " enhance command-line completion
 set wildmenu
 
-" Disable automatic comment auto
+" Disable automatic comment out
 autocmd Filetype * set formatoptions-=ro
 
 " shape of cursor
