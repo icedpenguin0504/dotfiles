@@ -29,6 +29,15 @@ Plug 'airblade/vim-rooter'
 Plug 'sheerun/vim-polyglot'
 " Close parentheses automatically
 Plug 'cohama/lexima.vim'
+" auto completion
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
 call plug#end()
 
 colorscheme nord
