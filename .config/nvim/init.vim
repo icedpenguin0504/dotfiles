@@ -39,6 +39,8 @@ else
 endif
 " Linter
 Plug 'dense-analysis/ale'
+" Show git difference
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 colorscheme nord
