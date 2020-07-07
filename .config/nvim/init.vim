@@ -41,6 +41,8 @@ endif
 Plug 'dense-analysis/ale'
 " Show git difference
 Plug 'airblade/vim-gitgutter'
+" Easy comment-out
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 colorscheme nord
