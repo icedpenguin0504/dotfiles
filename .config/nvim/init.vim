@@ -43,6 +43,8 @@ Plug 'dense-analysis/ale'
 Plug 'airblade/vim-gitgutter'
 " Easy comment-out
 Plug 'tpope/vim-commentary'
+" table formatter
+Plug 'dhruvasagar/vim-table-mode'
 call plug#end()
 
 colorscheme nord
@@ -81,6 +83,10 @@ let g:ale_sign_column_always = 1
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 let g:ale_echo_msg_format = '[%linter%]%code: %%s'
+
+" vim-table-mode
+
+let g:table_mode_corner = '|'
 
 """"""""""""""""""""""""""""""""""""""""
 " My settings: core
@@ -150,3 +156,5 @@ nnoremap :fh :History
 " fzf: current buffer
 nnoremap :fb :BLines 
 
+" vim-table-mode: toggle
+nnoremap :tm :TableModeToggle
