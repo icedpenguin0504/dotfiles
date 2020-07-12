@@ -7,6 +7,13 @@ set tabstop=2
 " Indent width
 set shiftwidth=2
 
+" indent settings for each file type
+if has("autocmd")
+  filetype plugin on
+  filetype indent on
+  autocmd Filetype kotlin setlocal shiftwidth=4
+endif
+
 " Indent when pressing tab
 set smarttab
 
