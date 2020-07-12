@@ -13,3 +13,4 @@ runtime! plugin-config/*.vim
 runtime! config/core.vim
 runtime! config/key-map.vim
 runtime! config/color.vim
+runtime! config/commands.vim
