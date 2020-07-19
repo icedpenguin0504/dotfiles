@@ -18,6 +18,19 @@ chpwd() {
   fi
 }
 
+function cdroot() {
+  if [ $(which gitroot) ]; then
+    RESULT=$(gitroot)
+    STATUS=$?
+    if [ $STATUS -eq 0 ]; then
+      cd $RESULT
+    else
+      echo $RESULT
+    fi
+  else
+    echo 'cdroot: command gitroot does not exist'
+  fi
+}
 
 ########################################
 # completion
@@ -52,7 +65,6 @@ alias ..3='cd ../../..'
 alias showcolors='for c in {000..255}; do echo -n "\e[38;5;${c}m $c" ; [ $(($c%16)) -eq 15 ] && echo;done;echo'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs &'
 alias vi='nvim'
-alias cdroot='cd $(gitroot)'
 
 # dotfiles
 
