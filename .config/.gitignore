@@ -4,3 +4,5 @@
 !/.gitignore
 !/powerline-shell/
 !/nvim/
+
+__pycache__/
