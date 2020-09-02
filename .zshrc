@@ -70,7 +70,7 @@ alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs &'
 alias cdd="cd $HOME/dotfiles"
 alias vz="vi $HOME/dotfiles/.zshrc"
 alias sz="source $HOME/dotfiles/.zshrc"
-alias vv="vi $HOME/dotfiles/.config/nvim/init.vim"
+alias vv="vi $HOME/dotfiles/vim/.vimrc"
 
 # git
 
