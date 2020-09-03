@@ -1,9 +1,4 @@
-/*
-/.**
+*
 
 !/.gitignore
 !/powerline-shell/
-!/nvim/
-
-__pycache__/
-*.pyc
