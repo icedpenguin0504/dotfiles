@@ -18,7 +18,7 @@ endif
 set smarttab
 
 " Keep current indent
-" set autoindent
+set autoindent
 
 " C-like indent
 set smartindent
