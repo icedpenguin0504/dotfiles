@@ -1,16 +1,25 @@
-# ignore all
-*
+# Ignore all
+/*
+/.**
 
-# white list
+# Don't ignroe
+
 !/README.md
 !/.gitignore
 !/.zshrc
 !/.zshenv
-!/.vimrc
-!/.spacemacs
 !/.ideavimrc
 
-!/.config/
-!/.config/**
-
 !/vim
+
+!/.config/
+/.config/**
+!/.config/powerline-shell/
+!/.config/powerline-shell/**
+!/.config/karabiner/
+!/.config/karabiner/**
+
+# Ignore
+
+__pycache__
+*.pyc
