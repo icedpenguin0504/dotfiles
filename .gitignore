@@ -2,7 +2,7 @@
 /*
 /.**
 
-# Don't ignroe
+# White list
 
 !/README.md
 !/.gitignore
@@ -18,6 +18,8 @@
 !/.config/powerline-shell/**
 !/.config/karabiner/
 !/.config/karabiner/**
+/.config/karabiner/karabiner.json
+/.config/karabiner/automatic_backups/
 
 # Ignore
 
