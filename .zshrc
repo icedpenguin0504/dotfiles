@@ -120,6 +120,5 @@ setopt nonomatch
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/nasuyuta/.sdkman"
-[[ -s "/Users/nasuyuta/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/nasuyuta/.sdkman/bin/sdkman-init.sh"
-
+export SDKMAN_DIR="/Users/yuta/.sdkman"
+[[ -s "/Users/yuta/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/yuta/.sdkman/bin/sdkman-init.sh"
