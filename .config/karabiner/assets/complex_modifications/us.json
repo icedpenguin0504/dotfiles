@@ -2,6 +2,30 @@
   "title": "My Settings for US keyboard",
   "rules": [
     {
+      "description": "Change spacebar to control if pressed with other keys",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "spacebar"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "Change spacebar + hjkl to arrow keys",
       "manipulators": [
         {
