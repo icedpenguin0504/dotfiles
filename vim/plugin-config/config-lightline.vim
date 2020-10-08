@@ -1,5 +1,14 @@
+" Use Nord theme
+" Show coc-vim status message
 let g:lightline = {
-      \ 'colorscheme': 'nord'
+      \ 'colorscheme': 'nord',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'cocstatus': 'coc#status'
+      \ },
       \ }
 
 " Need to show lightline

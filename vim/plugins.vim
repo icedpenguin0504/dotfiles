@@ -32,4 +32,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
 " table formatter
 Plug 'dhruvasagar/vim-table-mode'
+" LSP plugin 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
