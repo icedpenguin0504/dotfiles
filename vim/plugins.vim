@@ -16,14 +16,6 @@ Plug 'airblade/vim-rooter'
 Plug 'sheerun/vim-polyglot'
 " Close parentheses automatically
 Plug 'cohama/lexima.vim'
-" auto completion
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
 " Linter
 Plug 'dense-analysis/ale'
 " Show git difference
