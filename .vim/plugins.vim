@@ -12,8 +12,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " Fuzzy search from project root directory
 Plug 'airblade/vim-rooter'
-" Collection of languages packs
-Plug 'sheerun/vim-polyglot'
 " Close parentheses automatically
 Plug 'cohama/lexima.vim'
 " Linter
