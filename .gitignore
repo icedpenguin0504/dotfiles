@@ -1,6 +1,8 @@
 # Ignore all
-/*
-/.**
+# /*
+# /.**
+*
+!*/
 
 # White list
 
@@ -10,7 +12,14 @@
 !/.zshenv
 !/.ideavimrc
 
-!/vim
+!/.vimrc
+
+/.vim/**
+!/.vim/plugins.vim
+!/.vim/config/
+!/.vim/config/**
+!/.vim/plugin-config/
+!/.vim/plugin-config/**
 
 !/.config/
 /.config/**
