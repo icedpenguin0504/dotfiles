@@ -16,6 +16,7 @@
 
 /.vim/**
 !/.vim/plugins.vim
+!/.vim/coc-settings.json
 !/.vim/config/
 !/.vim/config/**
 !/.vim/plugin-config/
@@ -29,6 +30,8 @@
 !/.config/karabiner/**
 /.config/karabiner/karabiner.json
 /.config/karabiner/automatic_backups/
+/.config/nvim/
+/.config/nvim/**
 
 # Ignore
 
