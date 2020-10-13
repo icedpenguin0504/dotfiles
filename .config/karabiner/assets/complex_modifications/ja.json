@@ -1,0 +1,29 @@
+{
+  "title": "日本語キーボード用の自分用設定",
+  "rules": [
+    {
+      "description": "スペースキーを他のキーと一緒に押下した場合はコントロールに変更",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "optional": [ "any" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "spacebar"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
