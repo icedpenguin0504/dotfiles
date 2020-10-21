@@ -2,7 +2,7 @@
 inoremap <silent> jj <ESC>
 
 " open / close nerdtree
-nnoremap :tree :NERDTreeToggle
+nnoremap ::tr :NERDTreeToggle
 
 " fzf: files
 nnoremap :ff :Files     
@@ -12,7 +12,7 @@ nnoremap :fh :History
 nnoremap :fb :BLines 
 
 " vim-table-mode: toggle
-nnoremap :tm :TableModeToggle
+nnoremap ::tm :TableModeToggle
 
 " Reload .vimrc
 nnoremap ::r :Reload
