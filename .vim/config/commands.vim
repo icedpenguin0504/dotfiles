@@ -1,7 +1,7 @@
-" source init.vim
+" source .vimrc
 
 command! Reload source ~/dotfiles/.vimrc
 
-" Edit init.vim
+" Edit .vimrc
 
-command! Edit vi ~/dotfiles/.vimrc
+command! Vimrc vi ~/dotfiles/.vimrc
