@@ -13,3 +13,9 @@ nnoremap :fb :BLines
 
 " vim-table-mode: toggle
 nnoremap :tm :TableModeToggle
+
+" Reload .vimrc
+nnoremap ::r :Reload
+
+" Edit .vimrc
+nnoremap ::v :Vimrc
