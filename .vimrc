@@ -1,5 +1,4 @@
 source ~/dotfiles/.vim/plugins.vim
-source ~/dotfiles/.vim/plugin-config/config-ale.vim
 source ~/dotfiles/.vim/plugin-config/config-lightline.vim
 source ~/dotfiles/.vim/plugin-config/config-vim-table-mode.vim
 source ~/dotfiles/.vim/plugin-config/config-indentline.vim

@@ -12,8 +12,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 " Close parentheses automatically
 Plug 'cohama/lexima.vim'
-" Linter
-Plug 'dense-analysis/ale'
 " Show git difference
 Plug 'airblade/vim-gitgutter'
 " Easy comment-out
