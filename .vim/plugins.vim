@@ -5,11 +5,6 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 " Visualize indent
 Plug 'Yggdroot/indentLine'
-" fuzzy search
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-" Fuzzy search from project root directory
-Plug 'airblade/vim-rooter'
 " Close parentheses automatically
 Plug 'cohama/lexima.vim'
 " Show git difference
