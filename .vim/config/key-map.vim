@@ -1,9 +1,6 @@
 " Insert mode -> Normal mode
 inoremap <silent> jj <ESC>
 
-" open / close nerdtree
-nnoremap ::tr :NERDTreeToggle
-
 " fzf: files
 nnoremap :ff :Files     
 " fzf: file history

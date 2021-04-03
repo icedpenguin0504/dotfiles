@@ -1,8 +1,6 @@
 call plug#begin('~/.vim/plugged')
 " Nord theme
 Plug 'arcticicestudio/nord-vim'
-" Show file tree
-Plug 'preservim/nerdtree'
 " Add status line
 Plug 'itchyny/lightline.vim'
 " Visualize indent
