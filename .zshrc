@@ -6,6 +6,8 @@ export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/user/local/opt/mysql@5.7/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
 
 ########################################
 # commands
