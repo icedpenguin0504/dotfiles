@@ -12,6 +12,7 @@ if has("autocmd")
   filetype plugin on
   filetype indent on
   autocmd Filetype kotlin setlocal shiftwidth=4
+  autocmd Filetype go setlocal shiftwidth=4
 endif
 
 " Indent when pressing tab
